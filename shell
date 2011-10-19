@@ -1,0 +1,2 @@
+rebar get-deps && rebar compile
+erl -pa `pwd`/ebin `pwd`/deps/*/ebin
